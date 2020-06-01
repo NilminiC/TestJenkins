@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11503" started-at="2020-06-01T06:07:18 IST" finished-at="2020-06-01T06:07:29 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11503" started-at="2020-06-01T06:07:18 IST" finished-at="2020-06-01T06:07:29 IST">
+      <class name="futuready.friends.ExtentReportDemo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:futuready.friends.ExtentReportDemo@4d41cee]" name="setup" is-config="true" duration-ms="4801" started-at="2020-06-01T06:07:18 IST" finished-at="2020-06-01T06:07:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:futuready.friends.ExtentReportDemo@4d41cee]" name="test1" duration-ms="5922" started-at="2020-06-01T06:07:23 IST" finished-at="2020-06-01T06:07:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:futuready.friends.ExtentReportDemo@4d41cee]" name="getResult" is-config="true" duration-ms="6" started-at="2020-06-01T06:07:29 IST" finished-at="2020-06-01T06:07:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=ExtentReportDemo.test1()[pri:0, instance:futuready.friends.ExtentReportDemo@4d41cee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:futuready.friends.ExtentReportDemo@4d41cee]" name="tearDown" is-config="true" duration-ms="212" started-at="2020-06-01T06:07:29 IST" finished-at="2020-06-01T06:07:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testend()[pri:0, instance:futuready.friends.ExtentReportDemo@4d41cee]" name="testend" is-config="true" duration-ms="519" started-at="2020-06-01T06:07:29 IST" finished-at="2020-06-01T06:07:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testend -->
+      </class> <!-- futuready.friends.ExtentReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
