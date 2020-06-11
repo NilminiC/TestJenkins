@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="0" started-at="2020-06-11T08:45:51 IST" finished-at="2020-06-11T08:45:51 IST">
+  <suite name="Default suite" duration-ms="68879" started-at="2020-06-11T12:47:30 IST" finished-at="2020-06-11T12:48:39 IST">
     <groups>
     </groups>
-  </suite> <!-- Suite -->
+    <test name="Default test" duration-ms="68879" started-at="2020-06-11T12:47:30 IST" finished-at="2020-06-11T12:48:39 IST">
+      <class name="futuready.friends.MotorInsuranceTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:futuready.friends.MotorInsuranceTest@e320068]" name="initialize" is-config="true" duration-ms="20585" started-at="2020-06-11T12:47:30 IST" finished-at="2020-06-11T12:47:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="createMotorInsurance(java.lang.String, java.lang.String)[pri:0, instance:futuready.friends.MotorInsuranceTest@e320068]" name="createMotorInsurance" duration-ms="43790" started-at="2020-06-11T12:47:51 IST" data-provider="getData" finished-at="2020-06-11T12:48:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demouser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demoUser1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMotorInsurance -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:futuready.friends.MotorInsuranceTest@e320068]" name="teardown" is-config="true" duration-ms="4399" started-at="2020-06-11T12:48:35 IST" finished-at="2020-06-11T12:48:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- futuready.friends.MotorInsuranceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

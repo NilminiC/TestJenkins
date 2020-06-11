@@ -24,15 +24,16 @@ public class MotorInsuranceTest extends BaseSetUp{
 		login.basePageNavigation(Username, Password);
 		MotorInsurancePageobject MotorInsurance = new MotorInsurancePageobject(driver);
 		MotorInsurance.getMotorInsurancePage().click();
+		Thread.sleep(5000);
 		MotorInsurance.getBrand().click();
 		MotorInsurance.getSelecthonda().click();
 		MotorInsurance.getYear().click();
 		MotorInsurance.getSelectYear().click();
 		MotorInsurance.getModal().click();
 		MotorInsurance.getSelectmodal().click();
-		MotorInsurance.getSelectClass().click();
-		Thread.sleep(5000);
+		MotorInsurance.getSelectClass().click();		
 		MotorInsurance.getSelectPlans().click();
+		Thread.sleep(5000);
 		MotorInsurance.getSelectView().click();
 		MotorInsurance.getSelectPlanWanted().click();
 		MotorInsurance.getFname().click();

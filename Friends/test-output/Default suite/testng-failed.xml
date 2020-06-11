@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="futuready.friends.LifeinsuranceTest">
+      <class name="futuready.friends.MotorInsuranceTest">
         <methods>
-          <include name="createLifeInsurance" invocation-numbers="0"/>
-          <include name="initialize"/>
           <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="createMotorInsurance" invocation-numbers="0"/>
         </methods>
-      </class> <!-- futuready.friends.LifeinsuranceTest -->
+      </class> <!-- futuready.friends.MotorInsuranceTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

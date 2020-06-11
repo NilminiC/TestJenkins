@@ -1,7 +1,8 @@
 futuready\friends\ExtentReportDemo.class
 futuready\friends\Listeners.class
-futuready\friends\LifeinsuranceTest.class
 futuready\friends\HealthInsuranceTest.class
 futuready\friends\PAInsuranceTest.class
+futuready\friends\TravelInsurance.class
+futuready\friends\LifeInsuranceTest.class
 futuready\friends\MotorInsuranceTest.class
 futuready\friends\LoginPageTest.class
