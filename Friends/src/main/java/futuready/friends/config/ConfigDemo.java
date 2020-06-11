@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 import futuready.friends.base.BaseSetUp;
+import futuready.friends.pageObjects.LoginPageObject;
 
 
 

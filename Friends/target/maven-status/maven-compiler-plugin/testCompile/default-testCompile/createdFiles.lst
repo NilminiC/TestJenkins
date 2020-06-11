@@ -1,2 +1,7 @@
-futuready\friends\maventest.class
-futuready\friends\AppTest.class
+futuready\friends\ExtentReportDemo.class
+futuready\friends\Listeners.class
+futuready\friends\LifeinsuranceTest.class
+futuready\friends\HealthInsuranceTest.class
+futuready\friends\PAInsuranceTest.class
+futuready\friends\MotorInsuranceTest.class
+futuready\friends\LoginPageTest.class

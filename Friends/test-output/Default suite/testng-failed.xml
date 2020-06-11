@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="futuready.friends.ExtentReportDemo">
+      <class name="futuready.friends.LifeinsuranceTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="test1"/>
-          <include name="testend"/>
-          <include name="setup"/>
-          <include name="getResult"/>
+          <include name="createLifeInsurance" invocation-numbers="0"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- futuready.friends.ExtentReportDemo -->
+      </class> <!-- futuready.friends.LifeinsuranceTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -36,14 +36,13 @@ public class ExtentReportDemo extends BaseSetUp{
     public void setup() throws IOException{
         htmlReporter = new ExtentHtmlReporter(htmlReportPath);
         extent = new ExtentReports();
-        extent.attachReporter(htmlReporter);
- 
+        extent.attachReporter(htmlReporter); 
         driver =initializeDriver();
         
     }
  
     @Test
-    public void test1(){
+    public void LandingPage(){
         logger = extent.createTest("Site Test", "Test to launch site");
       //  driver.get("http://www.google.com/");
         driver.get(website);

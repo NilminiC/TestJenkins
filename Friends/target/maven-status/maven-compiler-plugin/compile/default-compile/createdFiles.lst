@@ -1,1 +1,9 @@
-futuready\friends\App.class
+futuready\friends\pageObjects\PAInsurancePageObjects.class
+futuready\friends\pageObjects\TravelInsurance.class
+futuready\friends\pageObjects\MotorInsurancePageobject.class
+futuready\friends\config\ConfigDemo.class
+futuready\friends\pageObjects\LoginPageObject.class
+futuready\friends\extentReports\ExtentReporterNG.class
+futuready\friends\pageObjects\LifeInsurancePageObjects.class
+futuready\friends\pageObjects\HealthInsPageObject.class
+futuready\friends\base\BaseSetUp.class
